@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="información" />
+        <item
+            android:id="@+id/servicio"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Nuestros servicios" />
+        <item
+            android:id="@+id/citas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Citas" />
+        <item
+            android:id="@+id/detalles"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Detalles" />
+        <item
+            android:id="@+id/llamada"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video llamada" />
+    </group>
+</menu>

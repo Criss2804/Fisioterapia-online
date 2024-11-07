@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#c1e8ff"
     tools:context=".Login_medico">
 
@@ -13,11 +14,33 @@
         android:layout_height="49dp"
         android:ems="10"
         android:hint="Contraseña"
+=======
+    tools:context=".Login_medico">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="178dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="@drawable/logo1" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="310dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Ususario"
+>>>>>>> 08ba31d (Se agrega el proyecto)
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502" />
 
@@ -62,6 +85,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
         app:srcCompat="@drawable/x_13886194" />
+=======
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+>>>>>>> 08ba31d (Se agrega el proyecto)
 
     <ProgressBar
         android:id="@+id/progressBar3"
@@ -74,6 +114,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.43"
         tools:visibility="visible" />
 
@@ -98,10 +139,22 @@
         android:backgroundTint="#4bb6e8"
         android:onClick="Pantalla_inicio_medico"
         android:text="Ingresar"
+=======
+        app:layout_constraintVertical_bias="0.396" />
+
+    <Button
+        android:id="@+id/bot_ingresar3"
+        android:layout_width="311dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Ingresar"
+        android:textColor="@color/black"
+>>>>>>> 08ba31d (Se agrega el proyecto)
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.741" />
 
     <TextView
@@ -133,4 +186,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
         app:srcCompat="@drawable/facebook_725289" />
+=======
+        app:layout_constraintVertical_bias="0.779" />
+
+    <TextView
+        android:id="@+id/textinicio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fisioterapia online"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+>>>>>>> 08ba31d (Se agrega el proyecto)
 </androidx.constraintlayout.widget.ConstraintLayout>

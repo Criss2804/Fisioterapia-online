@@ -12,5 +12,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+<<<<<<< HEAD
 rootProject.name = "Fisioterapia Online"
+=======
+rootProject.name = "nuevo"
+>>>>>>> 08ba31d (Se agrega el proyecto)
 include ':app'

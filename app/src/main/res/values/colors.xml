@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
+=======
+    <!-- <color name="azulclaro_app">#2196F3</color>
+    <color name="azulclaro2_app">#1976D2</color>
+    <color name="azulclaro3_app">#E3F2FD"</color>
+    <color name="azulclaro5_app">##66000000</color>-->
+
+>>>>>>> 08ba31d (Se agrega el proyecto)
 </resources>

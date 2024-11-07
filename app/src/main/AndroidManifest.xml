@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     package="com.google.fisioterapiaonline">
+=======
+    package="com.google.nuevo">
+>>>>>>> 08ba31d (Se agrega el proyecto)
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
+<<<<<<< HEAD
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -46,10 +51,23 @@
         <activity
             android:name=".Inicio_del_usuario"
             android:exported="false" />
+=======
+        android:label="Fisioterapia online"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nuevo"
+        tools:targetApi="31">
+        <activity
+            android:name=".Inicio_usuario"
+            android:exported="false"
+            android:label="@string/title_activity_inicio_usuario"
+            android:theme="@style/Theme.Nuevo.NoActionBar" />
+>>>>>>> 08ba31d (Se agrega el proyecto)
         <activity
             android:name=".Login_medico"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".Registro_usuario"
             android:exported="false" />
         <activity
@@ -57,6 +75,18 @@
             android:exported="false" />
         <activity
             android:name=".Medico_o_Usuario"
+=======
+            android:name=".Usuario_o_medico"
+            android:exported="false" />
+        <activity
+            android:name=".Pan_Ingresar"
+            android:exported="false" />
+        <activity
+            android:name=".Pan_registrarse"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+>>>>>>> 08ba31d (Se agrega el proyecto)
             android:exported="false" />
         <activity
             android:name=".MainActivity"
