@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="horario">
+
+        <item>Seleccionar</item>
+        <item>8:00am</item>
+        <item>8:30am</item>
+        <item>9:00am</item>
+        <item>9:30am</item>
+        <item>10:00am</item>
+        <item>10:30am</item>
+        <item>11:00am</item>
+        <item>11:30am</item>
+        <item>12:00m</item>
+
+
+    </string-array>
+</resources>

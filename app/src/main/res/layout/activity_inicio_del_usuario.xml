@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1e8ff"
+    tools:context=".Inicio_del_usuario">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#4bb6e8"
+        android:onClick="Pantalla_Informacion"
+        android:text="Informacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#4bb6e8"
+        android:onClick="Pantalla_Nuestro_servicio"
+        android:text="Nuestros Servicios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#4bb6e8"
+        android:onClick="Pantalla_Citas"
+        android:text="Citas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#4bb6e8"
+        android:onClick="Pantalla_Detalles"
+        android:text="Detalles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#4bb6e8"
+        android:onClick="Pantalla_recor_citas"
+        android:text="Recordatorio de citas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#4bb6e8"
+        android:onClick="Pantalla_videollamada"
+        android:text="Videollamadas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <ImageButton
+        android:id="@+id/boton_instragam10"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_redondo"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/instagram_408707" />
+
+    <ImageButton
+        android:id="@+id/boton_instragam11"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_redondo"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/facebook_725289" />
+
+    <ImageButton
+        android:id="@+id/boton_instragam12"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_redondo"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/x_13886194" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="398dp"
+        android:layout_height="98dp"
+        android:text="Los duques de Sussex, Henry Charles Alberth David Mountbatten-Windsor y Megan Markle, visitaron este viernes la Dirección de Veteranos y Rehabilitación Inclusiva, DIVRI, del ministerio de Defensa Nacional, junto con la vicepresidencia de la República, Francia Márquez Mina."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/logo1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="413dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132"
+        app:srcCompat="@drawable/image1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

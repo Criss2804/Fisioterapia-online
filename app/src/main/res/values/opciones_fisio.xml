@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="medico">
+
+        <item>Seleccionar</item>
+        <item>Jose Hernandez</item>
+        <item>Martín Valero</item>
+        <item>Mariano Cheves</item>
+        <item>Romario Pelaez</item>
+
+
+
+    </string-array>
+</resources>

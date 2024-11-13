@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.google.fisioterapiaonline">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FisioterapiaOnline"
+        tools:targetApi="31">
+        <activity
+            android:name=".Videollamada_medico"
+            android:exported="false" />
+        <activity
+            android:name=".Recordatorio_medico"
+            android:exported="false" />
+        <activity
+            android:name=".Citas_medico"
+            android:exported="false" />
+        <activity
+            android:name=".Inicio_medico"
+            android:exported="false" />
+        <activity
+            android:name=".Videollamada"
+            android:exported="false" />
+        <activity
+            android:name=".Recordatorio_citas"
+            android:exported="false" />
+        <activity
+            android:name=".Detalles"
+            android:exported="false" />
+        <activity
+            android:name=".Citas"
+            android:exported="false" />
+        <activity
+            android:name=".Nuestros_servicios"
+            android:exported="false" />
+        <activity
+            android:name=".Informacion"
+            android:exported="false" />
+        <activity
+            android:name=".Inicio_del_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Login_medico"
+            android:exported="false" />
+        <activity
+            android:name=".Registro_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Medico_o_Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

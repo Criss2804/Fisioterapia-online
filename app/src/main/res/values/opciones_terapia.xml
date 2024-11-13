@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="terapia">
+
+        <item>Seleccionar</item>
+        <item>Fisioterapia en lesiones por accidente de tráfico</item>
+        <item>Fisioterapia Deportiva</item>
+        <item>Fisioterapia para Mayores</item>
+
+
+
+    </string-array>
+</resources>
